@@ -8,34 +8,39 @@ A smart contract for creation and usage of a joint savings account.
 * **Solidity** - A language used to develop smart contracts on the Ethereum blockchain and other Ethereum Virtual Machine (EVM) compatible blockchains.
 * **Remix IDE** - A hosted Intdgrated Development Environment (IDE) that facilitates the development, testing and deployment of smart contracts written in Solidity. The Remix IDE is available at https://remix.ethereum.org/.
 
+---
+
 ## Smart Contract Usage
 
 ### Using setAccounts to define authorized withdrawal accounts
-![set authorized withdrawal accounts](images/1-setAccounts.png)
+![setAccounts](https://user-images.githubusercontent.com/97932685/182971417-a1b8417b-6883-4395-9983-eb11e5e1ab65.png)
+
 
 ### Deposits
 #### Depositing 1000000000000000000 wei (1 eth)
-![1000000000000000000 wei deposit](images/2_1-deposit1EthAsWei.png)
-#### Balance after deposit
-![balance ater 1000000000000000000 wei deposit](images/2_2-balance_after_1eth_deposit.png)
+![transaction1](https://user-images.githubusercontent.com/97932685/182971464-06b82698-6f94-4cf1-9949-ce3b1f889655.png)
+
 #### Depositing 10000000000000000000 wei (10 eth)
-![10000000000000000000 wei deposit](images/2_3-deposit10EthAsWei.png)
-#### Balance after deposit
-![balance ater 10000000000000000000 wei deposit](images/2_4-balance_after_10eth_deposit.png)
+![transaction2](https://user-images.githubusercontent.com/97932685/182971553-4f1ba796-11d1-4b09-8d58-c6e400406f03.png)
+
+
 #### Depositing 5 eth
-![5 eth deposit](images/2_5-deposit5Eth.png)
-#### Balance after deposit
-![balance ater 5 eth deposit](images/2_6-balance_after_5eth_deposit.png)
+![transaction3](https://user-images.githubusercontent.com/97932685/182971571-42d8e078-6f3f-4d55-a644-5b70dcc12347.png)
+
 
 ### Withdrawals
 #### Withdrawing 5 eth to accountOne
-![withdrawing 5 eth to accountOne](images/3_1-withdraw_5eth_account1.png)
+![withdraw5eth](https://user-images.githubusercontent.com/97932685/182971592-b1a5c39a-eb4f-4d22-b315-2db61d3bb320.png)
+
 #### Balance, lastToWithdraw, lastWithdrawAmount after withdrawal
-![balance ater 5 eth withdrawal to accountOne](images/3_2-balance_after_withdraw_5eth_account1.png)
+![updated_balance_after_withdrawing_5eth](https://user-images.githubusercontent.com/97932685/182971638-9d3d7816-0ff2-4c20-9a75-d975787ad355.png)
+
 #### Withdrawing 10 eth to accountTwo
-![withdrawing 10 eth to accountTwo](images/3_3-withdraw_10eth_account2.png)
+![withdraw10eth](https://user-images.githubusercontent.com/97932685/182971663-c2349a99-6469-42ea-81ac-450ea170ed9c.png)
+
 #### Balance, lastToWithdraw, lastWithdrawAmount after withdrawal
-![balance ater 10 eth withdrawal to accountTwo](images/3_4-balance_after_withdraw_10eth_account2.png)
+![balance_after_withdraw10eth](https://user-images.githubusercontent.com/97932685/182971688-01457892-571f-4fab-b0de-8264f82d7201.png)
+
 
 ---
 
